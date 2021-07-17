@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.background-section-one {
+    background-image: url(../IMAGENS/bg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background-section-two {
+    background-image: url(../IMAGENS/bg5.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.card-container{
+    background: #FFF;
+    background-attachment: fixed;
+    border-radius: 25px;
+    padding: 30px;
+    max-width: 500px;
+    display: grid;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(247, 118, 12);
+    font-family: francois one;
+}
+
+.descrição {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-family: francois one;
+    padding: 0px;
+    
+}
+
+.titulo-descrição   {
+    color: rgb(247, 118, 12);
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.gama   {
+    padding: 20px;
+
+}
+
+.traço  {
+    height: 10px;
+    background-color: rgb(250, 169, 18);
+}
+.traço2  {
+    height: 10px;
+    background-color: #ffffff;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 12px;
+    background:rgb(250, 204, 119) ;
+    color: black;
+    font-family: francois one;
+}
+
+form{
+    display: grid;
+}
+
+footer{
+    height: 200px;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    background-attachment: fixed;
+    color:black;
+    font-family: francois one;
+}
+
+
